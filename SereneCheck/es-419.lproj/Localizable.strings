@@ -34,3 +34,8 @@
 "footer_modal" = "Esta es una lista de tareas que podrias realizar para mejorar tu estado de ánimo";
 "confirm_checklist_text" = "Si crees que ésta lista de tareas funciona para ti\npor favor confirma.";
 "confirm_checklist_button" = "Confirmar Lista";
+
+// Labels
+"user.label" = "Usuario: ";
+"json.response" = "Respuesta JSON: ";
+"current.mood.label" = "Escriba su estado de ánimo actual, así podemos crear para usted una lista de tareas que podrían ayudarte a recuperar tu estado de serenidad o a mantenerlo.";
