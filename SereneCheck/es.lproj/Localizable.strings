@@ -1,0 +1,54 @@
+//Home View:
+"Moods registered" = "Moods registrados";
+"Tasks registered" = "Tareas registradas";
+"Tasks completed" = "Tareas completadas";
+"Press the + button to start" = "Presiona el botón + para comenzar";
+"Delete" = "Eliminar";
+
+//Card View:
+"Tasks completed" = "Tareas completados";
+"Date" = "Fecha";
+
+//Mood status:
+"Current" = "Actual";
+"Pending" = "Pendiente";
+"Completed" = "Completado";
+
+//New mood view:
+"How do you feel today?" = "¿Como te sientes hoy?";
+"Write your current mood so we can create for you a checklist of tasks that could help you to bring back your serene state or to maintain it." = "Escribe tu estado de ánimo actual para que podamos crear para ti una lista de tareas que podrían ayudarte a recuperar tu estado de animo o a mantenerlo.";
+"I feel...." = "Me siento...";
+"Add mood" = "Agregar animo";
+
+//On boarding:
+"How is your mood?" = "¿Cómo te sientes?";
+"START" = "Comenzar";
+"Tell us about your mood and get a checklist to steps that can help you improve your mood!" = "¡Cuéntenos sobre su estado de ánimo y obtenga una lista de pasos que pueden ayudarlo a mejorar su estado de ánimo!";
+
+//Loading:
+"We are generating your checklist, it may take a while." = "Se esta generando la lista, podría tardar un poco.";
+"I couldn't identify your mood, could you talk about how you feel?" = "No pude identificar tu estado de ánimo, ¿Podrías hablar de cómo te sientes?";
+"We are having trouble with our bots." = "Estamos teniendo problemas con nuestros bots.";
+
+//Modal checklist
+"footer_modal" = "Esta es una lista de tareas que podrias realizar para mejorar tu estado de ánimo";
+"confirm_checklist_text" = "Si crees que ésta lista de tareas funciona para ti\npor favor confirma.";
+"confirm_checklist_button" = "Confirmar Lista";
+
+// Rules
+"rules.header" = "Eres un bot que ayuda al usuario a crear una lista de pasos para mejorar su estado de ánimo en función del sentimiento positivo o negativo identificado en el texto ingresado por el usuario.
+Las reglas son:";
+"rules.line.1" = "1) Identificar el estado de ánimo, si éste tiene un sentimiento negativo, crear una lista de 5 pasos recomendados para mejorar el estado de ánimo.";
+"rules.line.2" = " 2) Si el estado de ánimo tiene un sentimiento positivo, mostrarás un listado de 3 pasos para mantener ese sentimiento.";
+"rules.line.3" = "3) En caso de que el usuario no hable sobre su propio estado del animo, pedirle que intente de nuevo hablar sobre su estado de ánimo.";
+"rules.line.4" = "4) Los pasos recomendados deben estar enumerados (por ejemplo: '1. Lee un libro cuando te sientas triste'), y cada paso debe tener máximo 20 palabras.";
+"rules.line.5" = "La respuesta del bot debe ser en formato JSON en una sola línea, sin saltos de línea ni identación, sin excepción. La estructura JSON debe tener exactamente tres propiedades con la siguiente información:";
+"rules.line.6" = "'header': mensaje que invite al usuario a seguir los pasos recomendados (incisos 1 y 2) o para invitar al usuario a que hable sobre su estado de ánimo (inciso 3)";
+"rules.line.7" = "'checklist': un arreglo con los pasos recomendados (incisos 1 y 2), o un arreglo vacío en caso de que aplique la regla del inciso 3.";
+"rules.line.8" = "'footer': mensaje de despedida (incisos 1 y 2) o una cadena vacío en caso de que aplique la regla del inciso 3.";
+"rules.line.9" = "Ninguna propiedad debe ser null. Todas las propiedades deben estar presentes en la estructura.";
+
+// Labels
+"user.label" = "Usuario: ";
+"json.response" = "Respuesta JSON: ";
+"current.mood.label" = "Escriba su estado de ánimo actual, así podemos crear para usted una lista de tareas que podrían ayudarte a recuperar tu estado de serenidad o a mantenerlo.";

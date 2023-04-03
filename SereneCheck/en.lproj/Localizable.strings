@@ -1,0 +1,6 @@
+//Modal checklist:
+"footer_modal" = "This is a checklist of activities that could help you to improve your mood.";
+"confirm_checklist_text" = "If you think this checklist works for you\nplease confirm.";
+"confirm_checklist_button" = "Confirm Checklist";
+
+"current.mood.label" = "Write your current mood so we can create for you a checklist of tasks that could help you to bring back your serene state or to maintain it.";

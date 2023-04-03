@@ -1,0 +1,36 @@
+//Home View:
+"Moods registered" = "Moods registrados";
+"Tasks registered" = "Tareas registradas";
+"Tasks completed" = "Tareas completadas";
+"Press the + button to start" = "Presiona el botón + para comenzar";
+"Delete" = "Eliminar";
+
+//Card View:
+"Tasks completed" = "Tareas completados";
+"Date" = "Fecha";
+
+//Mood status:
+"Current" = "Actual";
+"Pending" = "Pendiente";
+"Completed" = "Completado";
+
+//New mood view:
+"How do you feel today?" = "¿Como te sientes hoy?";
+"Write your current mood so we can create for you a checklist of tasks that could help you to bring back your serene state or to maintain it." = "Escribe tu estado de ánimo actual para que podamos crear para ti una lista de tareas que podrían ayudarte a recuperar tu estado de animo o a mantenerlo.";
+"I feel...." = "Me siento...";
+"Add mood" = "Agregar animo";
+
+//On boarding:
+"How is your mood?" = "¿Cómo te sientes?";
+"START" = "Comenzar";
+"Tell us about your mood and get a checklist to steps that can help you improve your mood!" = "¡Cuéntenos sobre su estado de ánimo y obtenga una lista de pasos que pueden ayudarlo a mejorar su estado de ánimo!";
+
+//Loading:
+"We are generating your checklist, it may take a while." = "Se esta generando la lista, podría tardar un poco.";
+"I couldn't identify your mood, could you talk about how you feel?" = "No pude identificar tu estado de ánimo, ¿Podrías hablar de cómo te sientes?";
+"We are having trouble with our bots." = "Estamos teniendo problemas con nuestros bots.";
+
+//Modal Checklist
+"footer_modal" = "Esta es una lista de tareas que podrias realizar para mejorar tu estado de ánimo";
+"confirm_checklist_text" = "Si crees que ésta lista de tareas funciona para ti\npor favor confirma.";
+"confirm_checklist_button" = "Confirmar Lista";
